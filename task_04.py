@@ -37,3 +37,14 @@ s2 = float(choice_list[1][1])
 s3 = float(choice_list[2][1])
 
 print('Три случайных песни звучат:',round(s1 + s2 + s3, 4))
+
+# Отлично
+# Вот чуть покороче
+# Решение 2
+time = 0
+for song in sample(my_favorite_songs, 3):
+    print(song[0])
+    time += song[1]
+
+print(f'Три песни звучат {round(time, 2)}')
+

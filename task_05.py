@@ -27,3 +27,5 @@ while m:
 # 170 300
 diff = sum(s)
 print('Необходимо взять в долг: ',round(diff - salary * 12, 2), 'рублей')
+
+# Отлично

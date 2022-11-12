@@ -41,3 +41,14 @@ while True:
     except KeyError:
         print( 'Введено некорректное значение')
         user_input = input("Введите номер месяца: ")
+        
+# Отлично
+# Решение 2
+import calendar as cl  # используем модуль для получения функции
+
+year_input = input("Введите год: ")
+month_input = input("Введите номер месяца: ")
+
+year = int(year_input)
+month_ = int(month_input)
+print(cl.monthrange(year, month_))

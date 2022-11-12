@@ -51,3 +51,5 @@ for code in titles.items():
         total_cost = total_cost + intermediate_cost
 
     print(f" {str(code[0])}  {str(total_quantity)} шт; Общей стоимостью: {str(total_cost)} .руб")
+
+# Отлично
